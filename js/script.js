@@ -45,6 +45,7 @@ const filterByType = (type, ...values) => values.filter(value => typeof value ==
 			showError(`Ошибка: ${e}`);
 		}
 	};
+
 //Получаем кнопку filterButton
 const filterButton = document.querySelector('#filter-btn');
 
